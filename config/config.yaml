@@ -1,0 +1,30 @@
+# Single source of truth for gold. infra: read by scripts/deploy.sh. params: injected into sql/gold as ${name}.
+infra:
+  project: hcl-hackathon-cloud9      # CHANGE ME
+  region: us-central1               # Dataproc / Workflows / Scheduler
+  bq_location: US                   # BigQuery dataset location
+  bucket: hcl-hackathon-cloud9-landing  # CHANGE ME (created by deploy.sh)
+  service_account: ecom-pipeline
+  schedule: "0 6 * * *"
+  time_zone: Asia/Kolkata
+
+# Business assumptions used inside the gold SQL (confirm with the business)
+params:
+  min_return_volume: 10    # units ordered before a product's return rate counts
+  payment_tolerance: 1     # currency units allowed between paid_amt and order_total
+  margin_risk_threshold: 0.15   # products below this margin % are flagged at risk
+  w_revenue: 0.4          # supplier composite_score weights (should sum to 1)
+  w_returns: 0.3
+  w_rating: 0.3
+
+# How gold objects are built. Default is a (logical) view; list an object under `table` to materialize it.
+# Today's data is tiny, so only the aggregates are tables. At large scale, move fct_order_line / fct_order here too.
+materialization:
+  default: view
+  table:
+    - agg_rev_month_cat_channel
+    - agg_customer_ltv
+    - customer_first_order
+    - agg_product_returns
+    - agg_supplier_scorecard
+    - agg_order_payments

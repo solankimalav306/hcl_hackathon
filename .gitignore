@@ -1,0 +1,21 @@
+# generated
+dist/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# secrets / local config
+.env
+*.key
+*.pem
+*credentials*.json
+
+# editor / OS / tool noise
+.idea/
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db
+.~lock.*#

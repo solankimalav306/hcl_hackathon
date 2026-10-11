@@ -1,0 +1,7 @@
+google-cloud-bigquery
+google-cloud-storage
+google-cloud-pubsub
+db-dtypes
+pandas
+pyarrowpyyaml
+python-dotenv

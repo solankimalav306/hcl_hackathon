@@ -1,0 +1,50 @@
+# Cloud Workflows: silver DQ (Dataproc Serverless) -> gold build + tests (BigQuery).
+# Env vars are set by scripts/deploy.sh: PROJECT, REGION, BUCKET, BQ_LOCATION, SERVICE_ACCOUNT
+main:
+  steps:
+    - init:
+        assign:
+          - project: ${sys.get_env("PROJECT")}
+          - region: ${sys.get_env("REGION")}
+          - bucket: ${sys.get_env("BUCKET")}
+          - bq_location: ${sys.get_env("BQ_LOCATION")}
+          - sa: ${sys.get_env("SERVICE_ACCOUNT")}
+
+    - silver_data_quality:
+        call: googleapis.dataproc.v1.projects.locations.batches.create
+        args:
+          parent: ${"projects/" + project + "/locations/" + region}
+          body:
+            pysparkBatch:
+              mainPythonFileUri: ${"gs://" + bucket + "/jobs/dq_job.py"}
+              args:
+                - ${"--project=" + project}
+                - ${"--bucket=" + bucket}
+            environmentConfig:
+              executionConfig:
+                serviceAccount: ${sa + "@" + project + ".iam.gserviceaccount.com"}
+        result: dq_batch
+
+    - download_gold_sql:
+        call: http.get
+        args:
+          url: ${"https://storage.googleapis.com/storage/v1/b/" + bucket + "/o/sql%2Frun_gold.sql?alt=media"}
+          auth:
+            type: OAuth2
+        result: sql_file
+
+    - build_gold_and_test:
+        call: googleapis.bigquery.v2.jobs.insert
+        args:
+          projectId: ${project}
+          body:
+            jobReference:
+              location: ${bq_location}
+            configuration:
+              query:
+                query: ${text.decode(sql_file.body)}
+                useLegacySql: false
+        result: bq_job
+
+    - done:
+        return: ${"pipeline ok, bigquery job " + bq_job.jobReference.jobId}
