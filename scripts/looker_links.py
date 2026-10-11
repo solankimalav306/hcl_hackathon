@@ -1,7 +1,11 @@
-"""Print Looker Studio "Linking API" URLs that create a report with BigQuery gold KPI views already connected.
+"""Print Looker Studio (formerly Data Studio) "Linking API" URLs for the gold KPI views.
 
-Looker Studio has no CLI, so these links are the closest thing: open one, click "Edit and share",
-and the data sources are attached. Usage: python scripts/looker_links.py
+How the Linking API works (https://developers.google.com/looker-studio/integrate/linking-api):
+  * A link WITHOUT a template report creates a default report with exactly ONE embedded data source,
+    and its ds.* parameters take NO alias. (Aliases such as ds0 only exist inside an existing template report.)
+  * So you cannot attach several data sources to a new report from a URL. Open one link, then add the remaining
+    views from inside Looker Studio (see docs/looker_studio.md).
+Looker Studio has no CLI. Usage: python scripts/looker_links.py [view_name]
 """
 import sys
 from pathlib import Path
@@ -16,23 +20,29 @@ VIEWS = [
     "q7_repeat_rate_cohort", "q7_repeat_rate_overall", "q8_payment_anomalies", "q8_anomaly_summary",
     "margin_risk",
 ]
-BASE = "https://lookerstudio.google.com/reporting/create"
+BASE = "https://datastudio.google.com/reporting/create"  # Looker Studio (formerly Data Studio): the address the Linking API docs use
 
 
-def ds_params(i: int, project: str, view: str) -> str:
-    p = f"ds.ds{i}"
-    return (f"{p}.connector=bigQuery&{p}.type=TABLE&{p}.projectId={project}"
-            f"&{p}.datasetId=gold&{p}.tableId={view}&{p}.datasourceName={view}")
+def link(project: str, view: str, report_name: str = "E-commerce KPI dashboard") -> str:
+    return (f"{BASE}?c.mode=edit&r.reportName={quote(report_name)}"
+            f"&ds.connector=bigQuery&ds.type=TABLE&ds.projectId={project}"
+            f"&ds.datasetId=gold&ds.tableId={view}")
 
 
 def main() -> None:
     project = load_config()["infra"]["project"]
-    name = quote("E-commerce KPI dashboard")
-    print("ONE REPORT WITH ALL KPI DATA SOURCES:\n")
-    print(f"{BASE}?r.reportName={name}&" + "&".join(ds_params(i, project, v) for i, v in enumerate(VIEWS)))
-    print("\nPER-VIEW LINKS:\n")
+    if len(sys.argv) > 1:
+        print(link(project, sys.argv[1]))
+        return
+    print("START HERE: this creates the report with the Q1 view attached; then add the other views from inside Looker Studio.\n")
+    print(link(project, VIEWS[0]))
+    print("\nTo add the other views: Resource > Manage added data sources > Add a data source > BigQuery >")
+    print(f"{project} > gold > pick the view. Views to add:\n")
+    for v in VIEWS[1:]:
+        print(f"  gold.{v}")
+    print("\nOr a standalone starter report per view:\n")
     for v in VIEWS:
-        print(f"{v}:\n  {BASE}?r.reportName={quote(v)}&{ds_params(0, project, v)}\n")
+        print(f"  {v}:\n    {link(project, v, v)}")
 
 
 if __name__ == "__main__":

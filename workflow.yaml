@@ -1,50 +1,150 @@
-# Cloud Workflows: silver DQ (Dataproc Serverless) -> gold build + tests (BigQuery).
-# Env vars are set by scripts/deploy.sh: PROJECT, REGION, BUCKET, BQ_LOCATION, SERVICE_ACCOUNT
+# Cloud Workflows: the whole pipeline, from the files already landed in Cloud Storage.
+#
+#   landing (GCS)  ->  1 bronze  ->  2 silver (+tests)  ->  3 silver DQ gate (Dataproc)  ->  4 gold (+tests)
+#
+# Every Python step runs as the same Cloud Run Job (see scripts/deploy.sh); the workflow picks the step with the STEP env var (src/run_step.py).
+# Optional input (JSON):  {"batch_id": "b_20261011_130000_ab12cd", "dq_gate": false}
+#   batch_id  default: the newest folder under gs://<bucket>/landing/
+#   dq_gate   default: true  (set false to skip the Dataproc step)
+# Env vars (set by scripts/deploy.sh): PROJECT, REGION, BUCKET, JOB, SERVICE_ACCOUNT
 main:
+  params: [args]
   steps:
     - init:
         assign:
+          - empty: {}
+          - input: ${default(args, empty)}
           - project: ${sys.get_env("PROJECT")}
           - region: ${sys.get_env("REGION")}
           - bucket: ${sys.get_env("BUCKET")}
-          - bq_location: ${sys.get_env("BQ_LOCATION")}
           - sa: ${sys.get_env("SERVICE_ACCOUNT")}
+          - job_name: ${"projects/" + sys.get_env("PROJECT") + "/locations/" + sys.get_env("REGION") + "/jobs/" + sys.get_env("JOB")}
+          - batch_id: ${default(map.get(input, "batch_id"), "")}
+          - dq_gate: ${default(map.get(input, "dq_gate"), true)}
 
-    - silver_data_quality:
-        call: googleapis.dataproc.v1.projects.locations.batches.create
-        args:
-          parent: ${"projects/" + project + "/locations/" + region}
-          body:
-            pysparkBatch:
-              mainPythonFileUri: ${"gs://" + bucket + "/jobs/dq_job.py"}
-              args:
-                - ${"--project=" + project}
-                - ${"--bucket=" + bucket}
-            environmentConfig:
-              executionConfig:
-                serviceAccount: ${sa + "@" + project + ".iam.gserviceaccount.com"}
-        result: dq_batch
+    # ---- find the batch to process: given by the caller, otherwise the newest landed folder
+    - pick_batch:
+        switch:
+          - condition: ${batch_id == ""}
+            steps:
+              - list_batches:
+                  call: googleapis.storage.v1.objects.list
+                  args:
+                    bucket: ${bucket}
+                    prefix: "landing/"
+                    delimiter: "/"
+                  result: listing
+              - choose_latest:
+                  assign:
+                    - prefixes: ${default(map.get(listing, "prefixes"), [])}
+              - require_batch:
+                  switch:
+                    - condition: ${len(prefixes) == 0}
+                      raise: "No landed batch found under gs://<bucket>/landing/. Run scripts/land_files.sh first."
+              - set_latest:
+                  assign:
+                    - batch_id: ${text.split(prefixes[len(prefixes) - 1], "/")[1]}
 
-    - download_gold_sql:
-        call: http.get
+    - log_start:
+        call: sys.log
         args:
-          url: ${"https://storage.googleapis.com/storage/v1/b/" + bucket + "/o/sql%2Frun_gold.sql?alt=media"}
-          auth:
-            type: OAuth2
-        result: sql_file
+          severity: INFO
+          text: ${"Pipeline start, batch " + batch_id}
 
-    - build_gold_and_test:
-        call: googleapis.bigquery.v2.jobs.insert
-        args:
-          projectId: ${project}
-          body:
-            jobReference:
-              location: ${bq_location}
-            configuration:
-              query:
-                query: ${text.decode(sql_file.body)}
-                useLegacySql: false
-        result: bq_job
+    # Everything runs inside try/except so a failure is logged once with context and re-raised
+    # (this is the hook for the failure-handling work: alerts, retries, quarantine of a bad batch).
+    - run_pipeline:
+        try:
+          steps:
+            - bronze:
+                call: googleapis.run.v2.projects.locations.jobs.run
+                args:
+                  name: ${job_name}
+                  body:
+                    overrides:
+                      containerOverrides:
+                        - env:
+                            - name: STEP
+                              value: bronze
+                            - name: BATCH_ID
+                              value: ${batch_id}
+                result: bronze_run
+
+            - silver:
+                call: googleapis.run.v2.projects.locations.jobs.run
+                args:
+                  name: ${job_name}
+                  body:
+                    overrides:
+                      containerOverrides:
+                        - env:
+                            - name: STEP
+                              value: silver
+                result: silver_run
+
+            - silver_dq_gate:
+                switch:
+                  - condition: ${dq_gate}
+                    steps:
+                      # No Workflows connector exists for Dataproc batches, so call the REST API and poll the operation.
+                      - dq_submit:
+                          call: http.post
+                          args:
+                            url: ${"https://dataproc.googleapis.com/v1/projects/" + project + "/locations/" + region + "/batches"}
+                            auth:
+                              type: OAuth2
+                            body:
+                              pysparkBatch:
+                                mainPythonFileUri: ${"gs://" + bucket + "/jobs/dq_job.py"}
+                                args:
+                                  - ${"--project=" + project}
+                                  - ${"--bucket=" + bucket}
+                              environmentConfig:
+                                executionConfig:
+                                  serviceAccount: ${sa + "@" + project + ".iam.gserviceaccount.com"}
+                          result: dq_op
+                      - dq_wait:
+                          call: sys.sleep
+                          args:
+                            seconds: 20
+                      - dq_poll:
+                          call: http.get
+                          args:
+                            url: ${"https://dataproc.googleapis.com/v1/" + dq_op.body.name}
+                            auth:
+                              type: OAuth2
+                          result: dq_status
+                      - dq_check:
+                          switch:
+                            - condition: ${not("done" in dq_status.body)}
+                              next: dq_wait
+                            - condition: ${"error" in dq_status.body}
+                              raise: ${dq_status.body.error}
+
+            - gold:
+                call: googleapis.run.v2.projects.locations.jobs.run
+                args:
+                  name: ${job_name}
+                  body:
+                    overrides:
+                      containerOverrides:
+                        - env:
+                            - name: STEP
+                              value: gold
+                result: gold_run
+        except:
+          as: e
+          steps:
+            - log_failure:
+                call: sys.log
+                args:
+                  severity: ERROR
+                  text: '${"Pipeline FAILED for batch " + batch_id + " - " + json.encode_to_string(e)}'
+            - fail:
+                raise: ${e}
 
     - done:
-        return: ${"pipeline ok, bigquery job " + bq_job.jobReference.jobId}
+        return:
+          status: succeeded
+          batch_id: ${batch_id}
+          dq_gate: ${dq_gate}

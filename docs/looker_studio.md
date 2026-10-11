@@ -1,4 +1,4 @@
-# Looker Studio setup (data sources: BigQuery `gold` views)
+# Looker Studio (formerly Data Studio) setup: data sources are the BigQuery `gold` views
 
 ## 1. Give the dashboard viewers access (CLI)
 ```bash
@@ -8,12 +8,16 @@ gcloud projects add-iam-policy-binding <project> --member="user:<email>" --role=
 ```
 
 ## 2. Create the report
-There is no CLI for Looker Studio. Generate links that pre-attach the BigQuery views:
+Looker Studio has no CLI. The Linking API can create a report with **one** data source attached (a new report takes no
+data source aliases; aliases like `ds0` only exist inside an existing template report). So:
 ```bash
-python scripts/looker_links.py
+python scripts/looker_links.py          # prints the starter link (Q1 view attached) and the list of views to add
 ```
-Open the "one report with all data sources" link, then **Edit and share** (data source credentials: Owner).
-All views live in dataset `gold`, so you only add charts.
+1. Open the printed link while signed in to a Google account with BigQuery access to the project, then authorize the data source.
+2. Add the other views: **Resource > Manage added data sources > Add a data source > BigQuery > hcl-hackathon-cloud9 > gold >** pick a view.
+   Repeat for each view in the list the script printed (12 more). Name each source after its view.
+3. Optional: once the report has all 13 sources, keep it as your template. Copy it instead of rebuilding.
+All views live in dataset `gold`.
 
 ## 3. Pages and charts (one page per theme)
 

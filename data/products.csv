@@ -1,0 +1,76 @@
+product_id,product_name,category,sub_category,unit_price,cost_price,supplier_id,is_active,launch_date
+P023,Footwear Item 23,Fashion,Footwear,3019.36,2515.11,S92,true,2024-06-26
+P052,Womenswear Item 52,fashion,Womenswear,17637.28,11253.7,S001,yes,24/01/2025
+P003,Staples Item 3 (Revised),GROCERY,Staples,9543.98,10602.65,S006,Y,2021-04-28
+P059,,,Cookware,18828.5,15780.42,S006,Y,01-Nov-2020
+P024,Footwear Item 24,FASHION,Footwear,11175.62,7441.33,S012,Y,2023-03-25
+P032,Womenswear Item 32,Fashion,Womenswear,23243.35,16113.29,S006,Y,07/14/2022
+P070,Footwear Item 70,fashion,Footwear,"₹2,902.33",2413.18,S008,no,01/01/2024
+P064,Womenswear Item 64,Fashion,Womenswear,11089.19,8990.04,S013,yes,2020-02-02
+P001,Accessories Item 1,Electronics,Accessories,23939.11,16799.61,S014,True,31/05/2023
+P008,,,Menswear,15176.98,13176.38,S013,True,19-Sep-2021
+P061,Furniture Item 61,home & kitchen,Furniture,8318.56,5529.46,S013,true,05-Nov-2022
+P036,Staples Item 36,grocery,Staples,4574.41,3877.7,S018,True,09/03/2025
+P038,Womenswear Item 38,FASHION,Womenswear,25201.06,17658.56,S008,Y,2019-08-02
+P045,Footwear Item 45,Fashion,Footwear,27280.24,19599.97,S96,True,03/30/2019
+P044,Beverages Item 44,GROCERY,Beverages,22655.14,16582.96,S006,Y,07-Jul-2019
+P030,Furniture Item 30,Home and Kitchen,Furniture,20253.93,14440.59,S004,Y,2021-07-27
+P006,Furniture Item 6,Home and Kitchen,Furniture,2863.09,4549.93,S007,yes,2020-08-17
+P070,Footwear Item 70 (Revised),fashion,Footwear,3962.52,2413.18,S008,no,01/01/2024
+P040,Footwear Item 40,fashion,Footwear,0,1563.28,S012,yes,2024-12-09
+P066,Staples Item 66,,Staples,19639.31,13836.78,S006,1,07/14/2020
+P060,Staples Item 60,Grocery,Staples,0,18576.25,S003,yes,20/03/2019
+P056,Audio Item 56,ELECTRONICS,Audio,16535.66,14375.43,S014,no,04/17/2020
+P011,Beverages Item 11,grocery,Beverages,"₹1,179.68",828.75,S006,Y,14-May-2023
+P017,Furniture Item 17,,Furniture,17485.19,15648.11,S007,True,24-Jul-2022
+P067,Appliances Item 67,Home & Kitchen,Appliances,14595.44,9154.08,S011,yes,01/01/2019
+P022,Footwear Item 22,fashion,Footwear,19552.29,14219.86,S006,1,09/20/2023
+P043,Furniture Item 43,Home and Kitchen,Furniture,4511.74,2881.64,S013,yes,03-Jun-2020
+P051,Footwear Item 51,fashion,Footwear,0,4574.85,S006,1,31/10/2022
+P002,Furniture Item 2,home & kitchen,Furniture,9953.59,9027.17,S007,0,01/10/2021
+P042,Staples Item 42,grocery,Staples,11284.39,10051.55,S014,true,31/05/2019
+P057,Team Sports Item 57,sports,Team Sports,11518.86,9601.23,S006,Y,2023-03-20
+P028,Appliances Item 28,Home and Kitchen,Appliances,7218.53,9457.58,S018,Y,15-Jan-2020
+P012,Menswear Item 12,fashion,Menswear,11434.02,8795.33,S003,true,04-Nov-2023
+P053,Outdoor Item 53,Sports,Outdoor,7313.65,5880.01,S007,true,05-Apr-2024
+P018,Team Sports Item 18,Sports,Team Sports,"₹17,477.91",12141.39,S011,Y,08/17/2020
+P041,Cookware Item 41,home & kitchen,Cookware,11992.92,7526.65,S012,1,10/17/2021
+P069,Mobiles Item 69,Electronics,Mobiles,25742.49,16592.6,S93,1,05/24/2025
+P055,Staples Item 55,GROCERY,Staples,5471.28,4861.71,S018,1,2021-10-25
+P034,Fitness Item 34,sports,Fitness,11932.31,10348.1,S017,True,15/07/2023
+P010,Accessories Item 10,electronics,Accessories,1165.83,1730.66,S004,True,07/10/2020
+P020,Beverages Item 20,GROCERY,Beverages,3634.57,5171.78,S003,yes,17-Mar-2021
+P063,Beverages Item 63,Grocery,Beverages,9269.43,8076.58,S014,1,2020-06-26
+P046,Audio Item 46,electronics,Audio,15383.27,10532.22,S016,1,2021-06-19
+P039,Fitness Item 39,sports,Fitness,21602.68,14577.41,S011,N,12/07/2019
+P062,Cookware Item 62,Home and Kitchen,Cookware,8493.72,6808.53,S009,true,23/04/2022
+P021,Fitness Item 21,Sports,Fitness,3184.81,2801.0,S002,true,2023-07-11
+P037,Mobiles Item 37,Electornics,Mobiles,16084.14,10158.34,S009,Y,2019-01-13
+P047,Staples Item 47,Grocery,Staples,5145.55,3896.61,S010,1,25/04/2025
+P065,Footwear Item 65,fashion,Footwear,15706.03,23290.69,S015,1,26/03/2019
+P019,Beverages Item 19,grocery,Beverages,7877.61,6356.27,S015,0,19/12/2020
+P033,Outdoor Item 33,sports,Outdoor,11865.75,9342.4,S014,True,22-Jun-2023
+P068,Staples Item 68,Grocery,Staples,21978.46,15261.01,S007,yes,04-Jan-2020
+P004,Appliances Item 4,Home and Kitchen,Appliances,21122.18,15898.59,S015,true,2019-12-29
+P050,Beverages Item 50,GROCERY,Beverages,22582.54,15462.6,S001,1,07/26/2023
+P049,Beverages Item 49,GROCERY,Beverages,"₹12,393.99",9619.58,S002,yes,05-May-2022
+P014,Audio Item 14,electronics,Audio,13809.86,10954.94,S007,True,11-Jan-2024
+P035,Cookware Item 35,Home & Kitchen,Cookware,1741.05,1107.05,S010,1,12-Jan-2020
+P060,Staples Item 60 (Revised),Grocery,Staples,11569.57,18576.25,S003,yes,20/03/2019
+P029,Furniture Item 29,Home and Kitchen,Furniture,7855.79,5561.58,S012,0,05/17/2020
+P026,Footwear Item 26,Fashion,Footwear,13038.96,9054.49,S011,yes,11/12/2021
+P001,Accessories Item 1 (Revised),Electronics,Accessories,10660.79,16799.61,S014,True,31/05/2023
+P048,Staples Item 48,grocery,Staples,25643.17,17469.07,S004,yes,12/09/2022
+P016,Footwear Item 16,Fashion,Footwear,2260.53,1593.32,S98,1,2021-05-17
+P007,Outdoor Item 7,Sports,Outdoor,20278.89,12749.85,S001,True,2024-06-26
+P058,Snacks Item 58,GROCERY,Snacks,"₹22,572.25",14799.86,S004,1,27/02/2024
+P039,Fitness Item 39 (Revised),sports,Fitness,5818.64,14577.41,S011,N,12/07/2019
+P013,Appliances Item 13,Home and Kitchen,Appliances,15622.68,24940.49,S018,Y,26/08/2021
+P009,Furniture Item 9,home & kitchen,Furniture,26274.11,19618.3,S002,Y,06/05/2021
+P027,Appliances Item 27,Home and Kitchen,Appliances,20550.39,18223.17,S015,True,06/27/2023
+P031,Accessories Item 31,electronics,Accessories,20098.63,15362.48,S005,yes,03-Mar-2021
+P003,Staples Item 3,GROCERY,Staples,-70.38,10602.65,S006,Y,2021-04-28
+P054,Fitness Item 54,,Fitness,20481.04,16576.24,S012,1,2023-02-09
+P005,Staples Item 5,Grocery,Staples,17935.95,14399.03,S005,1,07/03/2023
+P015,Team Sports Item 15,sports,Team Sports,4516.1,3416.23,S003,False,04/02/2022
+P025,Womenswear Item 25,FASHION,Womenswear,19632.52,14405.51,S010,Y,10/19/2023

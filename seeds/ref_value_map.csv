@@ -1,0 +1,55 @@
+domain,raw_value,standard_value
+customer_segment,platinum,Platinum
+customer_segment,gold,Gold
+customer_segment,glod,Gold
+customer_segment,silver,Silver
+customer_segment,silverr,Silver
+customer_segment,bronze,Bronze
+customer_segment,broze,Bronze
+city,ahmedabad,Ahmedabad
+city,bangalore,Bangalore
+city,bengaluru,Bangalore
+city,chennai,Chennai
+city,delhi,Delhi
+city,new delhi,Delhi
+city,hyderabad,Hyderabad
+city,jaipur,Jaipur
+city,kolkata,Kolkata
+city,lucknow,Lucknow
+city,mumbai,Mumbai
+city,pune,Pune
+product_category,electronics,Electronics
+product_category,electornics,Electronics
+product_category,fashion,Fashion
+product_category,grocery,Grocery
+product_category,home & kitchen,Home & Kitchen
+product_category,home and kitchen,Home & Kitchen
+product_category,sports,Sports
+order_status,completed,Completed
+order_status,complete,Completed
+order_status,complted,Completed
+order_status,pending,Pending
+order_status,cancelled,Cancelled
+order_status,canceled,Cancelled
+order_status,cancled,Cancelled
+order_status,returned,Returned
+channel,web,Web
+channel,app,App
+channel,store,Store
+channel,in-store,Store
+channel,instore,Store
+payment_status,success,Success
+payment_status,succeded,Success
+payment_status,succeeded,Success
+payment_status,pending,Pending
+payment_status,failed,Failed
+payment_status,refunded,Refunded
+return_status,approved,Approved
+return_status,rejected,Rejected
+return_status,pending,Pending
+return_reason,defective,Defective
+return_reason,damged,Damaged
+return_reason,damaged,Damaged
+return_reason,not as described,Not as Described
+return_reason,size issue,Size Issue
+return_reason,wrong item,Wrong Item

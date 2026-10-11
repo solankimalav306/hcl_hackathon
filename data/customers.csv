@@ -1,0 +1,164 @@
+customer_id,first_name,last_name,email,phone,address_line1,city,state,zip_code,country,signup_date,customer_segment,is_active
+C0143,Chatura,Gokhale,chatura.gokhale143@example.com,06676650618,"H.No. 49, Manda Zila",BANGALORE,Karnataka,919015,India,19-May-2023,Silver,yes
+C0015,Chaitanya,Sarin,chaitanya.sarin15@example.com,(595) 148-4656,"80, Mangat Road",BANGALORE,Karnataka,823662,India,2021-01-02,Bronze,true
+C0056,Caleb,Iyengar,caleb.iyengar56@example.com,+91-8740345054,"75, Loke Circle",Mumbai,Maharashtra,N/A,India,08/28/2023,Silverr,yes
+C0140,Krishna,Baria,krishna.baria140@example.com,4057202590,"818, Sagar Street",Kolkata,West Bengal,798515,India,2022-04-14,Glod,yes
+C0001,Isaac,Bakshi,isaac.bakshi1@example.com,08196001338,"H.No. 265, Dugal Road",Bangalore,Karnataka,838637,India,2023-03-23,bronze,Y
+C0130,Anamika,Devan,anamika.devan130@example.com,+91-4117393483,"75/300, Choudhry Zila",MUMBAI,Maharashtra,642087,India,04-Apr-2022,bronze,true
+C0119,Aarna,Nagarajan,aarna.nagarajan119@example.com,(685) 487-0998,"H.No. 914, Padmanabhan Circle",Chennai,Tamil Nadu,162299,India,24-Sep-2023,Broze,true
+C0127,Peter,Munshi,peter.munshi127@example.com,+91-2927129666,"H.No. 583, Agrawal Nagar",Pune,Maharashtra,760083,India,26/11/2022,Glod,1
+C0051,Mohammed,Brahmbhatt,mohammed.brahmbhatt51@example.com,(059) 296-2229,"73/834, Hari Chowk",BANGALORE,Karnataka,706537,India,11/20/2021,Broze,True
+C0017,Robert,Rajagopalan,robert.rajagopalan17@example.com,+91-6328708317,"72/77, Kota Road",Lucknow,Uttar Pradesh,788957,India,06/25/2022,Platinum,True
+C0072,Ekiya,Kothari,ekiya.kothari72@example.com,05499045301,"H.No. 93, Deol Ganj",Pune,Maharashtra,426841,India,2021-01-08,Silver,Y
+C0096,Bimala,Loke, bimala.loke96@example.com ,(422) 325-3672,"57/759, Chander Nagar",Ahmedabad,Gujarat,667116,India,08/11/2023,PLATINUM,True
+C0043,Mohammed,Subramaniam,mohammed.subramaniam43@example.com,01493689980,"296, Dhar Zila",Lucknow,Uttar Pradesh,024455,India,09/03/2021,silver,Y
+C0035,Zashil,Shan,zashil.shan35@example.com,(369) 594-4064,"394, Chatterjee Street",Ahmedabad,Gujarat,909743,India,2023-07-14,GOLD,True
+C0091,Yagnesh,Varty,yagnesh.varty91@example.com,07362266093,"19/182, Nanda Path",Lucknow,Uttar Pradesh,966033,India,07/10/2021,GOLD,Y
+C0108,Manbir,Chand,manbir.chand108@example.com,(442) 067-8831,"651, Lad",Jaipur,Rajasthan,121003,India,18/02/2023,gold,yes
+C0074,Vrinda,Chand,vrinda.chand74@example.com,8679087406,"18/017, Mangat Nagar",Pune,Maharashtra,039106,India,11-Sep-2023,gold,Y
+C0101,Jalsa,Nadig,jalsa.nadig101@example.com,(710) 910-4300,"88/924, Mukherjee Zila",Ahmedabad,Gujarat,848666,India,2021-05-25,BRONZE,true
+C0054,Pallavi,Choudhry,pallavi.choudhry54@example.com,03697117980,"62/18, Bir Path",Ahmedabad,Gujarat,246095,India,2023-04-30,PLATINUM,1
+C0142,Zansi,Prasad,zansi.prasad142@example.com,+91-3581128801,"20/750, Borah Zila",Ahmedabad,Gujarat,361386,India,2022-07-17,PLATINUM,true
+C0018,Aradhana,Verma,aradhana.verma18@example.com,4345581223,"03, Ramachandran Marg",Mumbai,Maharashtra,231665,India,06/15/2022,Gold,yes
+C0053,Avi,Sachdeva,avi.sachdeva53@example.com,05305152204,"H.No. 32, Wable Circle",Jaipur,Rajasthan,277901,India,28-Feb-2021,BRONZE,yes
+C0133,Vinaya,Chowdhury,vinaya.chowdhury133@example.com,+91-5089935889,"H.No. 287, Gandhi Chowk",Lucknow,Uttar Pradesh,637562,India,30/08/2023,PLATINUM,yes
+C0132,Girik,Pradhan,girik.pradhan132@example.com,7467621202,"H.No. 90, Subramanian Street",bangalore,Karnataka,XXXXXX,India,11/06/2023,Silverr,yes
+C0038,Krishna,Rama,krishna.rama38@example,01796405377,"H.No. 31, Chand Chowk",Pune,Maharashtra,515850,India,12/05/2022,SILVER,True
+C0047,Farhan,Randhawa,,+91-1818835523,"779, Sen",DELHI,Delhi,243292,India,08/11/2023,Bronze,True
+C0122,Tanmayi,Bedi,tanmayi.bedi122@example.com,+91-8610357972,"H.No. 06, Gaba Nagar",Kolkata,West Bengal,985524,India,02-Oct-2023,BRONZE,true
+C0116,Harrison,Narula,harrison.narula116@example.com,+91-4443106987,"103, Manne Street",Bengaluru,Karnataka,050614,India,13-Aug-2021,SILVER,N
+C0002,  Tanveer ,Nayar, tanveer.nayar2@example.com ,+91-9407816184,"164, Patla Chowk",Lucknow,Uttar Pradesh,931034,India,2021-04-22,Gold,yes
+C0128,Yuvraj,Kara,yuvraj.kara128@example.com,+91-6894210447,"03, Deep Ganj",Jaipur,Rajasthan,625753,India,29/01/2023,Glod,Y
+C0032,Tamanna,Nagy,tamanna.nagy32@example.com,6057662702,"21, Lanka Chowk",Hyderabad,Telangana,171870,India,08/10/2023,GOLD,yes
+C0067,Varsha,Garde,varsha.garde67@example.com,09130756263,"57/86, Ghose Path",Kolkata,West Bengal,897028,India,2022-07-28,Glod,1
+C0027,Oscar,Borde,oscar.borde27@example.com,+91-4034471349,"H.No. 024, Mani",Jaipur,Rajasthan,618324,India,06/21/2021,Gold,1
+C0025,Rishi,Minhas,rishiminhas25example.com,02400842710,"11, Swamy Marg",mumbai,Maharashtra,777520,India,06/09/2021,Bronze,yes
+C0170,Ekanta,Thaman,ekanta.thaman137@gmail.com,(654) 722-6984,"22/885, Pandey Zila",bangalore,Karnataka,833394,India,2023-08-23,silver,yes
+C0139,Lopa,Khanna,lopa.khanna139@example.com,+91-6580043973,"122, Dar Circle",mumbai,Maharashtra,989334,India,07/13/2022,SILVER,Y
+C0024,Nidhi,Kohli,nidhi.kohli24@example.com,5685574443,"74/989, Chaudhry Road",Bengaluru,Karnataka,351823,India,2021-12-01,Broze,Y
+C0011,Tanay,Toor,tanay.toor11@example.com,4278498084,"H.No. 93, Jani Path",Lucknow,Uttar Pradesh,241182,India,10/18/2021,Silverr,true
+C0077,Ekani,Khalsa,ekani.khalsa77@example.com,4408926870,"28, Khosla Chowk",delhi,Delhi,685662,India,27/11/2021,gold,true
+C0034,Yash,Wali,yash.wali34@example.com,(969) 379-2374,"59, Samra Road",Chennai,Tamil Nadu,407482,India,2022-03-27,Platinum,Y
+C0049,Raghav,Nagy,raghavnagy49example.com,05182037788,"51/518, Mander Marg",Lucknow,Uttar Pradesh,554665,India,2022-10-24,PLATINUM,true
+C0062,Ayush,Bumb,ayush.bumb62@example.com,09078447364,"592, Nagar Path",Jaipur,Rajasthan,102767,India,02/19/2021,silver,1
+C0016,Shivansh,Sani,shivansh.sani16@example.com,03872148951,"91, Sachdeva Chowk",Pune,Maharashtra,433200,India,2023-05-10,gold,1
+C0003,Nicholas,Prabhakar,nicholas.prabhakar3@example.com,8327648350,"767, Lanka Street",Jaipur,Rajasthan,056413,India,01/24/2022,Platinum,Y
+C0069,Bhavna,Brar,,+91-3848421993,"H.No. 71, Ahluwalia Street",Kolkata,West Bengal,083301,India,14-Jan-2022,Glod,Y
+C0066,  Yutika ,Dey,yutika.dey66@example.com,04958887947,"74/99, Behl Ganj",DELHI,Delhi,551694,India,2021-12-25,Silverr,yes
+C0055,Yashica,Tripathi,yashica.tripathi55@example.com,(540) 515-3195,"22/170, Jaggi Road",Pune,Maharashtra,058527,India,2027-01-15,GOLD,1
+C0068,Tripti,Walia,tripti.walia68@example.com,3348434437,"52, Basak Road",Pune,Maharashtra,758441,India,10-Jan-2022,bronze,true
+C0126,Chaitaly,Sheth,chaitaly.sheth126@example.com,(917) 381-6846,"521, Natarajan Chowk",Hyderabad,Telangana,223569,India,21/07/2023,SILVER,True
+C0022,Idika,Walia,idika.walia22@example.com,0000000000,"H.No. 31, Seshadri Road",Bangalore,Karnataka,987769,India,04/14/2022,Bronze,true
+C0007,Thomas,Amble,thomas.amble7@example.com,05183473829,"H.No. 66, Bhagat Chowk",Lucknow,Uttar Pradesh,376311,India,03/19/2021,Gold,Y
+C0029,Rajata,Swamy,rajata.swamy29@example.com,(512) 567-4680,"87/603, Pathak Circle",mumbai,Maharashtra,154516,India,27/11/2023,Broze,yes
+C0004,Liam,Koshy,liam.koshy4@example.com,06532871012,"48/01, Loke Circle",Kolkata,West Bengal,691669,India,2023-03-27,bronze,True
+C0070,Nakul,Ray,,05401938026,"H.No. 99, Nayak Zila",Chennai,Tamil Nadu,,India,12/16/2022,Gold,Y
+C0117,Finn,Solanki,finn.solanki117@example.com,04186256527,"115, Sachdev Circle",New Delhi,Delhi,477434,India,07/13/2023,Platinum,yes
+C0120,Nirja,Lalla,nirja.lalla120@example.com,(024) 629-9606,"H.No. 44, Chaudhari Chowk",Jaipur,Rajasthan,307450,India,24/02/2022,Glod,True
+C0171,Adweta,Lad,adweta.lad59@gmail.com,3121727155,"31/32, Tak Ganj",Hyderabad,Telangana,884422,India,10/02/2023,Broze,yes
+C0138,Varsha,Sahni,varsha.sahni138@example.com,01062003424,"19, Kapur Circle",Pune,Maharashtra,204380,India,01/08/2023,SILVER,Y
+C0013,Balveer,Parmar,balveer.parmar13@example.com,+91-6923226025,"375, Kari Road",Chennai,Tamil Nadu,342160,India,08/18/2021,Platinum,1
+C0146,Vedika,Seshadri,vedika.seshadri146@example.com,0000000000,"H.No. 78, Gill Zila",BANGALORE,Karnataka,525777,India,26/12/2021,platinum,1
+C0071,Bhavani,Sha,bhavani.sha71@example.com,+91-4315274205,"H.No. 612, Sood Street",Chennai,Tamil Nadu,932966,India,19/12/2023,PLATINUM,1
+C0052,Jhalak,Sastry,jhalak.sastry52@example.com,06239240758,"26/13, Palla Chowk",Chennai,Tamil Nadu,814124,India,21/05/2022,PLATINUM,True
+C0059,Adweta,Lad,adweta.lad59@example.com,3121727155,"31/32, Tak Ganj",Hyderabad,Telangana,884422,India,10/02/2023,Broze,yes
+C0100,Indali,Sanghvi,indali.sanghvi100@example.com,3899940438,"791, Arora Circle",bangalore,Karnataka,640376,India,2021-12-11,Broze,true
+C0150,Yachana,Dewan,yachana.dewan150@example.com,(322) 259-1365,"H.No. 302, Dyal",BANGALORE,Karnataka,777392,India,2022-04-27,Bronze,true
+C0095,Ridhi,Kamdar,ridhi.kamdar95@example.com,,"49/82, Master Path",Hyderabad,Telangana,292330,India,19-Dec-2023,GOLD,yes
+C0129,Siddharth,Bains,siddharth.bains129@example.com,(648) 909-0100,"23/046, Venkatesh Zila",New Delhi,Delhi,676184,India,08/10/2022,PLATINUM,1
+C0079,Raghav,Kalla,raghav.kalla79@example.com,03173936385,"77/17, Jani Path",New Delhi,Delhi,678544,India,,Bronze,true
+C0012,Aishani,Tiwari,aishani.tiwari12@example.com,0052427868,"20, Patla Road",Pune,Maharashtra,112805,India,,SILVER,true
+C0114,Watika,Dhaliwal,watika.dhaliwal114@example.com,2157043315,"76, Prashad Path",Lucknow,Uttar Pradesh,100676,India,2021-12-29,gold,true
+C0037,Gautam,Rana,gautam.rana37@example.com,(965) 137-0985,"H.No. 471, Keer Zila",Jaipur,Rajasthan,174612,India,01/16/2021,GOLD,Y
+C0048,Ekantika,Mutti,ekantika.mutti48@example.com,4905814770,"98, Sengupta Nagar",Lucknow,Uttar Pradesh,541199,India,15/06/2021,Gold,True
+C0085,Chakrika,Koshy,chakrika.koshy85@example.com,+91-2655110475,"H.No. 015, Chander Circle",Chennai,Tamil Nadu,121267,India,20-Feb-2023,SILVER,1
+C0176,Farhan,Vaidya,farhan.vaidya102@gmail.com,09146303161,"20/275, Varughese Circle",Jaipur,Rajasthan,990421,India,05/10/2023,Platinum,yes
+C0034,Yash,Wali,YASH.WALI34@EXAMPLE.COM,(969) 379-2374,"59, Samra Road",Chennai,Tamil Nadu,407482,India,2022-03-27,Platinum,Y
+C0128,Yuvraj,Kara,YUVRAJ.KARA128@EXAMPLE.COM,+91-6894210447,"03, Deep Ganj",Jaipur,Rajasthan,625753,India,29/01/2023,Glod,Y
+C0040,Amol,Ghosh,amol.ghosh40@example.com,0000000000,"17, Borah Chowk",Pune,Maharashtra,847007,India,2021-10-18,PLATINUM,Y
+C0109,Falan,Bains,falan.bains109@example,(510) 702-9667,"H.No. 72, Korpal Nagar",Hyderabad,Telangana,662532,India,27/12/2023,platinum,yes
+C0065,Janani,Mani,janani.mani65@example.com,(912) 165-5852,"578, Dixit Chowk",Kolkata,West Bengal,986800,India,22/03/2021,Platinum,Y
+C0046,Ekbal,Ranganathan,ekbal.ranganathan46@example.com,(159) 696-6416,"H.No. 369, Viswanathan Marg",MUMBAI,Maharashtra,529751,India,01-Aug-2023,Silverr,Y
+C0008,Guneet,Bhat,,(387) 262-4731,"677, Rattan Ganj",Bengaluru,Karnataka,810801,India,03/17/2022,Broze,True
+C0076,Anya,Gulati,anya.gulati76@example.com,0331190790,"843, Nagar",Kolkata,West Bengal,067383,India,23-Oct-2023,Broze,yes
+C0036,  Balveer ,More,balveer.more36@example.com,1456232858,"H.No. 236, Pau Circle",Chennai,Tamil Nadu,247451,India,2023-05-13,bronze,True
+C0039,Simon,Bail,simon.bail39@example.com,(318) 393-3529,"02/053, Naik",Pune,Maharashtra,422842,India,02/25/2021,Glod,False
+C0092,Ronith,Shankar,ronith.shankar92@example.com,+91-6969155792,"H.No. 12, Dhaliwal Path",Chennai,Tamil Nadu,991251,India,05/05/2021,GOLD,yes
+C0089,Yashawini,Sahota,yashawini.sahota89@example.com,+91-1352909656,"56, Tella Chowk",Hyderabad,Telangana,XXXXXX,India,08/18/2022,GOLD,true
+C0061,Yadavi,Bhakta,yadavi.bhakta61@example.com,(535) 841-4384,"995, Barman",Chennai,Tamil Nadu,498182,India,29-Jun-2023,Platinum,True
+C0009,Daniel,Gala,daniel.gala9@example,06872343098,"H.No. 812, Bir Zila",Pune,Maharashtra,500978,India,02/19/2022,silver,True
+C0134,Falan,Swamy,falan.swamy134@example.com,3866317797,"60, Acharya Circle",Pune,Maharashtra,775170,India,17-Dec-2021,bronze,1
+C0113,Harrison,Nayar,harrison.nayar113@example.com,5289539264,"959, Chawla Ganj",Hyderabad,Telangana,220969,India,27-Nov-2021,Silver,True
+C0041,Faris,Nagy,faris.nagy41@example.com,0000000000,"57, Sagar Marg",Hyderabad,Telangana,118367,India,28-Oct-2022,bronze,True
+C0106,Wazir,Saini,wazir.saini106@example.com,0386571918,"445, Narain Marg",Pune,Maharashtra,619906,India,06/23/2022,platinum,yes
+C0042,Girish,Munshi,girish.munshi42@example.com,+91-1111615280,"H.No. 19, Kala Circle",mumbai,Maharashtra,165604,India,12/04/2022,silver,yes
+C0136,Aachal,Hayre,aachal.hayre136@example.com,(516) 091-7798,"29/22, Ram Zila",bangalore,Karnataka,708086,India,07/25/2021,Gold,1
+C0082,Yadavi,Sani,yadavi.sani82@example.com,(233) 984-5461,"01/666, Soni Circle",Ahmedabad,Gujarat,679334,India,01-Jun-2023,PLATINUM,true
+C0125,Nidhi,Rama,nidhi.rama125@example.com,+91-7584282417,"465, Lad Path",Ahmedabad,Gujarat,482513,India,17/03/2023,bronze,True
+C0137,Ekanta,Thaman,ekanta.thaman137@example.com,(654) 722-6984,"22/885, Pandey Zila",bangalore,Karnataka,833394,India,2023-08-23,silver,yes
+C0088,Krisha,Mand,krisha.mand88@example.com,+91-3982807374,"66/179, Rattan Chowk",Bangalore,Karnataka,672434,India,06/13/2023,platinum,Y
+C0058,Luke,Sarma,luke.sarma58@example.com,+91-6909275571,"H.No. 278, Dalal Marg",Kolkata,West Bengal,856543,India,08/02/2021,Silverr,Y
+C0045,Hemani,Sani,HEMANI.SANI45@EXAMPLE.COM,3690034324,"83, Pandya Circle",mumbai,Maharashtra,510762,India,05/02/2021,silver,1
+C0111,Ayushman,Mand,ayushman.mand111@example.com,03213348039,"05/99, Guha Street",DELHI,Delhi,N/A,India,03/06/2021,platinum,Y
+C0073,Vanya,Dua,vanya.dua73@example.com,08339187851,"587, Jha Zila",Pune,Maharashtra,088398,India,2022-05-13,PLATINUM,0
+C0097,Tara,Parmar,tara.parmar97@example.com,(745) 458-9297,"70, Jain Marg",Ahmedabad,Gujarat,001701,India,2023-07-20,Glod,Y
+C0060,Atharv,Patel,atharv.patel60@example.com,09114678669,"892, Sant Street",Hyderabad,Telangana,251778,India,30/08/2022,platinum,True
+C0064,Darika,Tank,darika.tank64@example.com,+91-3950047974,"H.No. 609, Hayer Circle",Kolkata,West Bengal,162456,India,26/01/2021,platinum,True
+C0173,Raksha,Raj,raksha.raj144@gmail.com,3268424508,"H.No. 35, Sachar Ganj",Kolkata,West Bengal,100996,India,03/09/2022,PLATINUM,Y
+C0099,Vanya,Bobal,vanya.bobal99@example.com,5426221890,"112, Rajagopalan Zila",Hyderabad,Telangana,753269,India,08-Sep-2021,Platinum,True
+C0115,Harrison,Srinivas,harrison.srinivas115@example.com,00405411526,"06/296, Bera Street",Lucknow,Uttar Pradesh,181599,India,2023-05-13,SILVER,true
+C0010,Wahab,Raval,wahab.raval10@example.com,(916) 998-5435,"H.No. 799, Borah Zila",Delhi,Delhi,462475,India,05/12/2021,Silver,Y
+C0149,Zarna,Patel,zarna.patel149@example.com,01844989266,"H.No. 57, Ahuja Chowk",Pune,Maharashtra,918463,India,03/01/2022,Bronze,true
+C0141,Netra,Chanda,netra.chanda141@example.com,4398780157,"48, Bakshi Road",Ahmedabad,Gujarat,993056,India,2022-01-18,gold,Y
+C0098,Kevin,Mittal,kevin.mittal98@example.com,01520643611,"H.No. 051, Deo Marg",Chennai,Tamil Nadu,371293,India,23-Jun-2021,Bronze,true
+C0131,Wakeeta,Dixit,wakeeta.dixit131@example.com,+91-7447012045,"H.No. 57, Loyal",Kolkata,West Bengal,611002,India,2023-11-05,Silver,true
+C0078,Umang,Mital,umang.mital78@example.com,06688263435,"99, Bora Nagar",Delhi,Delhi,751830,India,2027-01-15,platinum,True
+C0145,Yauvani,Dhar,yauvani.dhar145@example.com,(129) 087-8141,"31/491, Nadkarni Ganj",Kolkata,West Bengal,139755,India,26/06/2021,Silverr,true
+C0026,Ethan,Bera,ethan.bera26@example.com,8699938677,"341, Khatri Street",Hyderabad,Telangana,964990,India,15/06/2021,SILVER,Y
+C0033,Hamsini,Rao,hamsini.rao33@example.com,(780) 913-4316,"H.No. 455, Dhingra Marg",Lucknow,Uttar Pradesh,172400,India,12-Dec-2022,Glod,1
+C0121,Vedant,Desai,vedant.desai121@example.com,9137367850,"330, Bali Ganj",Pune,Maharashtra,148628,India,11/25/2021,bronze,Y
+C0014,Udant,Bajwa,udant.bajwa14@example.com,0000000000,"81/69, Kumar Ganj",Kolkata,West Bengal,019655,India,2022-12-24,platinum,yes
+C0031,  Urmi ,Kohli,urmi.kohli31@example.com,08214658404,"H.No. 58, Purohit Circle",Delhi,Delhi,997278,India,2022-05-15,Glod,no
+C0019,Anmol,Rai,anmol.rai19@example,8893734670,"99, Chacko Nagar",Hyderabad,Telangana,562729,India,06/06/2022,SILVER,yes
+C0124,Harsh,Amble,harsh.amble124@example.com,+91-4417154544,"52/074, Sahota Road",Chennai,Tamil Nadu,328309,India,14-Jul-2022,bronze,Y
+C0083,Daksh,Andra,daksh.andra83@example.com,09180339740,"926, Mistry Zila",Pune,Maharashtra,489025,India,02/08/2023,Silver,yes
+C0105,Falak,Chadha,falak.chadha105@example.com,+91-9493759738,"05/064, Jha Zila",bangalore,Karnataka,206038,India,29/08/2022,Glod,1
+C0123,Tanish,Kant,tanish.kant123@example.com,(007) 229-0349,"48, Ranganathan",MUMBAI,Maharashtra,466574,India,10-Dec-2022,Glod,1
+C0094,Vyanjana,Sagar,vyanjana.sagar94@example.com,+91-9034043842,"H.No. 85, Barman Circle",Chennai,Tamil Nadu,978819,India,16-Feb-2023,Silverr,1
+C0045,Hemani,Sani,hemani.sani45@example.com,3690034324,"83, Pandya Circle",mumbai,Maharashtra,510762,India,05/02/2021,silver,1
+C0090,Matthew,Pai,matthew.pai90@example.com,(112) 545-7387,"H.No. 105, Gala Zila",Jaipur,Rajasthan,717751,India,28-Dec-2023,platinum,true
+C0050,Zayyan,Doctor,zayyan.doctor50@example.com,+91-2914865281,"H.No. 73, Devan Ganj",Jaipur,Rajasthan,850542,India,31-Dec-2021,Broze,True
+C0111,Ayushman,Mand,AYUSHMAN.MAND111@EXAMPLE.COM,03213348039,"05/99, Guha Street",DELHI,Delhi,N/A,India,03/06/2021,platinum,Y
+C0174,Yagnesh,Varty,yagnesh.varty91@gmail.com,07362266093,"19/182, Nanda Path",Lucknow,Uttar Pradesh,966033,India,07/10/2021,GOLD,Y
+C0172,Siddharth,Bains,siddharth.bains129@gmail.com,(648) 909-0100,"23/046, Venkatesh Zila",New Delhi,Delhi,676184,India,08/10/2022,PLATINUM,1
+C0086,Ekta,Rajan,ekta.rajan86@example.com,3982622444,"15, Koshy Road",Mumbai,Maharashtra,212646,India,14-Jan-2021,bronze,Y
+C0057,Fitan,Samra,fitan.samra57@example.com,01154479627,"H.No. 658, Balasubramanian Street",Kolkata,West Bengal,705964,India,,Platinum,Y
+C0087,Warhi,Hayre,,05965756924,"H.No. 79, Nanda Ganj",Ahmedabad,Gujarat,937526,India,16/05/2022,platinum,True
+C0080,Kamala,Munshi,,,"522, Suresh Circle",Jaipur,Rajasthan,785477,India,2022-03-29,PLATINUM,Y
+C0102,Farhan,Vaidya,farhan.vaidya102@example.com,09146303161,"20/275, Varughese Circle",Jaipur,Rajasthan,990421,India,05/10/2023,Platinum,yes
+C0021,William,Date,william.date21@example.com,+91-4529912419,"H.No. 491, Barman",Delhi,Delhi,496631,India,06/03/2022,silver,N
+C0135,Gavin,Modi,gavin.modi135@example.com,0375899757,"10/272, Chhabra Marg",BANGALORE,Karnataka,130554,India,unknown,Bronze,Y
+C0103,Aashi,Ganesan,aashi.ganesan103@example.com,06481491778,"H.No. 913, Agate Circle",Ahmedabad,Gujarat,079252,India,11/02/2022,SILVER,true
+C0144,Raksha,Raj,raksha.raj144@example.com,3268424508,"H.No. 35, Sachar Ganj",Kolkata,West Bengal,100996,India,03/09/2022,PLATINUM,Y
+C0063,Hemani,Rastogi,hemani.rastogi63@example.com,5371473210,"278, Tara Chowk",Bengaluru,Karnataka,696325,India,24/05/2021,platinum,1
+C0028,Reva,Dash,reva.dash28@example.com,8771906594,"787, Golla Road",Kolkata,West Bengal,139904,India,28/05/2022,Platinum,1
+C0177,Tanay,Toor,tanay.toor11@gmail.com,4278498084,"H.No. 93, Jani Path",Lucknow,Uttar Pradesh,241182,India,10/18/2021,Silverr,true
+C0023,Yagnesh,Shetty,yagnesh.shetty23@example.com,5273545494,"77/701, Kant Road",Jaipur,Rajasthan,831367,India,2022-09-16,Platinum,1
+C0093,Yasti,Rama,yasti.rama93@example.com,(278) 282-7422,"688, Rege Chowk",Pune,Maharashtra,790507,India,2022-04-03,SILVER,true
+C0175,Anmol,Rai,anmol.rai19@example,8893734670,"99, Chacko Nagar",Hyderabad,Telangana,562729,India,06/06/2022,SILVER,yes
+C0044,Azaan,Chand,azaan.chand44@example.com,05254599102,"76/43, Comar Circle",DELHI,Delhi,901476,India,28/03/2023,SILVER,Y
+C0084,  Nicholas ,Khosla,nicholas.khosla84@example.com,unknown,"66/29, Chada Marg",Chennai,Tamil Nadu,504773,India,12-Sep-2022,platinum,1
+C0006,Farhan,Chada,farhan.chada6@example.com,(782) 489-6383,"150, Karpe",Jaipur,Rajasthan,657871,India,12-Mar-2023,Platinum,yes
+C0098,Kevin,Mittal,KEVIN.MITTAL98@EXAMPLE.COM,01520643611,"H.No. 051, Deo Marg",Chennai,Tamil Nadu,371293,India,23-Jun-2021,Bronze,true
+C0030,Wishi,Sathe,wishi.sathe30@example.com,+91-4771093248,"27/484, Subramanian Marg",Hyderabad,Telangana,XXXXXX,India,2023-04-12,bronze,yes
+C0075,  Nilima ,Gole,nilima.gole75@example.com,6618251286,"63/37, Dubey Path",mumbai,Maharashtra,300478,India,04/22/2023,Platinum,true
+C0107,Eesha,Sethi,eesha.sethi107@example.com,(121) 277-5618,"490, Narang Ganj",Kolkata,West Bengal,374741,India,25-Oct-2021,Silver,true
+C0104,Chaitanya,Arora,chaitanya.arora104@example.com,(208) 635-3654,"06/17, Mukhopadhyay Road",Bangalore,Karnataka,951802,India,25/09/2021,silver,yes
+C0147,Finn,Mand,finn.mand147@example.com,1108099693,"39, Desai Road",Bangalore,Karnataka,848872,India,07/29/2023,Gold,True
+C0110,Chakrika,Tara,chakrika.tara110@example.com,6263838065,"H.No. 20, Kanda Path",Ahmedabad,Gujarat,875985,India,2022-03-27,silver,true
+C0148,Ucchal,Thaker,ucchal.thaker148@example.com,3928272299,"H.No. 53, Jhaveri Nagar",Jaipur,Rajasthan,750373,India,2022-07-13,Bronze,true
+C0081,Qarin,Bhargava,qarin.bhargava81@example.com,02312038750,"H.No. 848, Badal Road",Pune,Maharashtra,700886,India,28-Jul-2022,PLATINUM,yes
+C0020,Priya,Deshmukh,priya.deshmukh20@example.com,5375564641,"H.No. 330, Dua",Pune,Maharashtra,080531,India,2023-08-07,Broze,1
+C0118,Utkarsh,Bhat,utkarsh.bhat118@example.com,03741608989,"H.No. 616, Divan Ganj",Hyderabad,Telangana,172233,India,07/09/2023,Glod,yes
+C0005,Harini,Choudhury,harini.choudhury5@example.com,(828) 148-9325,"H.No. 543, Khosla Nagar",Bengaluru,Karnataka,880957,India,18/11/2021,gold,Y
+C0112,Waida,More,waida.more112@example.com,+91-9308705932,"H.No. 851, Randhawa Path",Jaipur,Rajasthan,250029,India,2021-07-12,Glod,true

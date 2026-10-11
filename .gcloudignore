@@ -1,0 +1,14 @@
+# Keep the Cloud Run build small and free of secrets: only code, SQL, seeds and config are needed.
+# Patterns are anchored with a leading / so that sql/tests/ (needed at run time) is NOT excluded.
+/.git/
+/.gitignore
+/.venv/
+__pycache__/
+*.pyc
+.env
+/data/
+/dist/
+/outputs/
+/docs/
+/tests/
+*.png

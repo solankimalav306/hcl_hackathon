@@ -1,0 +1,154 @@
+[
+  {
+    "supplier_id": "S001",
+    "supplier_name": "Baral, Din and Bhalla",
+    "country": null,
+    "rating": 4.3,
+    "contract_start_date": "2018-12-11",
+    "is_preferred": "N"
+  },
+  {
+    "supplier_id": "S002",
+    "supplier_name": "Varughese Group",
+    "country": "Germany",
+    "rating": 2.5,
+    "contract_start_date": "2019-03-02",
+    "is_preferred": false
+  },
+  {
+    "supplier_id": "S003",
+    "supplier_name": "Bahl, Mander and Chada",
+    "country": "Vietnam",
+    "rating": 2.9,
+    "contract_start_date": "2022-03-12",
+    "is_preferred": false
+  },
+  {
+    "supplier_id": "S004",
+    "supplier_name": "Sinha, Subramaniam and Garde",
+    "country": "China",
+    "rating": 9.4,
+    "contract_start_date": "2019-07-08",
+    "is_preferred": "true"
+  },
+  {
+    "supplier_id": "S005",
+    "supplier_name": "Dhar-Gopal",
+    "country": "Germany",
+    "rating": 4.5,
+    "contract_start_date": "2019-07-15",
+    "is_preferred": "Y"
+  },
+  {
+    "supplier_id": "S006",
+    "supplier_name": "Lalla, Ganesh and Oommen",
+    "country": "Germany",
+    "rating": 7.5,
+    "contract_start_date": "2022-05-12",
+    "is_preferred": false
+  },
+  {
+    "supplier_id": "S007",
+    "supplier_name": "Biswas, Karpe and Radhakrishnan",
+    "country": null,
+    "rating": 4.2,
+    "contract_start_date": "2024-06-15",
+    "is_preferred": "N"
+  },
+  {
+    "supplier_id": "S008",
+    "supplier_name": "Babu and Sons",
+    "country": "India",
+    "rating": 3.7,
+    "contract_start_date": "2020-09-12",
+    "is_preferred": "N"
+  },
+  {
+    "supplier_id": "S009",
+    "supplier_name": "Saini, Doctor and Char",
+    "country": "Germany",
+    "rating": 4.0,
+    "contract_start_date": "29-Aug-2021",
+    "is_preferred": false
+  },
+  {
+    "supplier_id": "S010",
+    "supplier_name": "Barad, Wali and Thakur",
+    "country": "Germany",
+    "rating": 4.9,
+    "contract_start_date": "30-Mar-2019",
+    "is_preferred": false
+  },
+  {
+    "supplier_id": "S011",
+    "supplier_name": "Subramaniam Ltd",
+    "country": "Vietnam",
+    "rating": 3.3,
+    "contract_start_date": "08-Apr-2023",
+    "is_preferred": "N"
+  },
+  {
+    "supplier_id": "S012",
+    "supplier_name": "Zacharia, Agarwal and Sankar",
+    "country": "Vietnam",
+    "rating": 3.0,
+    "contract_start_date": "30-Nov-2018",
+    "is_preferred": false
+  },
+  {
+    "supplier_id": "S013",
+    "supplier_name": "Bassi-Wagle",
+    "country": "China",
+    "rating": 1.6,
+    "contract_start_date": "27-Aug-2021",
+    "is_preferred": true
+  },
+  {
+    "supplier_id": "S014",
+    "supplier_name": "Raj-Palla",
+    "country": null,
+    "rating": 2.5,
+    "contract_start_date": "2021-01-01",
+    "is_preferred": "true"
+  },
+  {
+    "supplier_id": "S015",
+    "supplier_name": "Chaudhari, Sandal and Desai",
+    "country": "India",
+    "rating": 4.1,
+    "contract_start_date": "14-Feb-2022",
+    "is_preferred": "N"
+  },
+  {
+    "supplier_id": "S016",
+    "supplier_name": "Chacko LLC",
+    "country": "Germany",
+    "rating": 7.7,
+    "contract_start_date": "2019-10-13",
+    "is_preferred": "N"
+  },
+  {
+    "supplier_id": "S017",
+    "supplier_name": "Rege, Kurian and Gulati",
+    "country": "Vietnam",
+    "rating": 2.7,
+    "contract_start_date": "10-Mar-2022",
+    "is_preferred": "true"
+  },
+  {
+    "supplier_id": "S018",
+    "supplier_name": "Amble, Virk and Dalal",
+    "country": "Vietnam",
+    "rating": 5.0,
+    "contract_start_date": "14-Jan-2018",
+    "is_preferred": false
+  },
+  {
+    "supplier_id": "S004",
+    "supplier_name": "Amble, Prashad and Jha",
+    "country": "Unknown",
+    "rating": 9.4,
+    "contract_start_date": "2019-07-08",
+    "is_preferred": "true"
+  }
+]

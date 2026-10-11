@@ -1,0 +1,324 @@
+order_id,customer_id,order_date,order_status,payment_method,channel,promo_code,shipping_city
+O00140,C0112,06/09/2025,Complted,Debit Card,web,PROMO19,Chennai
+O00225,C0066,10/14/2025,completed,NetBanking,web,NA,Delhi
+O00188,C0082,10/24/2024,PENDING,COD,APP,NA,Hyderabad
+O00183,C0114,30/07/2024,Pending,UPI,app,NA,Ahmedabad
+O00233,C0078,02/26/2025,completed,Credit Card,web,PROMO17,Hyderabad
+O00109,C0069,22/06/2024,cancelled,Credit Card,APP,PROMO10,Bangalore
+O00151,C0068,11-Aug-2024,completed,Debit Card,Instore,NA,Jaipur
+O00221,C0070,03/19/2025,cancelled,UPI,Store,PROMO9,Bangalore
+O00139,C0137,2025-04-27,returned,COD,Instore,,Hyderabad
+O00224,C0052,11/14/2024,Completed,COD,app,PROMO17,Hyderabad
+O00011,C0096,20-Aug-2024,Complted,COD,Web,NA,Pune
+O00053,C0064,03-Jul-2025,pending,COD,Store,PROMO19,Delhi
+O00309,C0077,02/17/2024,PENDING,COD,APP,NA,Lucknow
+O00317,C0014,2024-06-15,returned,NetBanking,App,NA,Mumbai
+O00046,C0148,10/01/2025,Completed,UPI,app,NA,Lucknow
+O00065,C0046,2025-05-07,returned,UPI,web,,Hyderabad
+O00277,C0041,06/25/2025,completed,Debit Card,web,,Pune
+O00318,C0142,05/30/2025,COMPLETE,Debit Card,store,NA,Mumbai
+O00303,C0129,2025-06-13,Returned,COD,WEB,PROMO7,Kolkata
+O00113,C0052,14-Feb-2025,returned,Debit Card,Instore,PROMO11,Lucknow
+O00132,C0145,10-Apr-2024,Returned,UPI,WEB,,Jaipur
+O00206,C0071,01/18/2024,Complted,UPI,App,NA,Jaipur
+O00094,C0120,11/15/2024,Returned,NetBanking,Store,PROMO5,Ahmedabad
+O00217,C0001,02/23/2025,Complted,Credit Card,app,NA,Pune
+O00033,C0143,05/21/2025,Returned,NetBanking,Store,NA,Pune
+O00167,C0087,22/11/2024,completed,UPI,APP,,Hyderabad
+O00105,C0108,05/20/2024,pending,Credit Card,In-store,,Delhi
+O00103,C0020,2025-04-06,COMPLETE,Credit Card,app,None,Pune
+O00071,C0049,14/04/2024,Returned,UPI,Web,NA,Kolkata
+O00251,C0044,01/06/2024,returned,COD,APP,,Mumbai
+O00312,C0130,16-Jul-2025,pending,Credit Card,Store,PROMO17,Pune
+O00229,C0114,10/10/2025,Cancelled,UPI,In-store,PROMO13,Delhi
+O00159,C0092,10/06/2025,PENDING,Debit Card,Web,NA,Delhi
+O00047,C0143,2024-12-11,completed,Debit Card,App,,Delhi
+O00209,C0044,02/25/2024,completed,UPI,APP,NA,Kolkata
+O00196,C0149,01/05/2025,COMPLETE,UPI,Store,,Jaipur
+O00115,C0109,29-Nov-2024,cancelled,Credit Card,Store,PROMO16,Chennai
+O00062,C0111,31-Aug-2025,returned,UPI,WEB,,Pune
+O00160,C0116,2024-05-13,Complted,UPI,In-store,PROMO6,Pune
+O00216,C0109,09-Jul-2024,Cancelled,Credit Card,Instore,PROMO18,Pune
+O00098,C0106,2025-04-04,Pending,Credit Card,WEB,PROMO4,Mumbai
+O00038,C0134,19/01/2024,PENDING,NetBanking,store,,Lucknow
+O00172,C0006,26-Feb-2025,Complted,Debit Card,In-store,,Bangalore
+O00104,C0117,08/01/2024,completed,UPI,store,PROMO18,Ahmedabad
+O00089,C0067,06-Jul-2024,Completed,Credit Card,App,NA,Chennai
+O00028,C0077,19-Jan-2025,Complted,Debit Card,app,,Ahmedabad
+O00101,C9115,12/04/2025,returned,NetBanking,Instore,PROMO16,Hyderabad
+O00051,C0138,03/03/2024,Complted,Credit Card,APP,,Lucknow
+O00199,C0066,04/13/2025,Completed,Debit Card,app,,Lucknow
+O00136,C0146,28/10/2025,COMPLETE,UPI,store,NA,Delhi
+O00258,C0129,06/03/2024,COMPLETE,NetBanking,web,PROMO9,Chennai
+O00044,C0029,2024-06-02,completed,COD,WEB,NA,Hyderabad
+O00243,C0037,01/09/2024,returned,Debit Card,In-store,,Kolkata
+O00311,C0101,08/05/2024,cancelled,NetBanking,APP,,Kolkata
+O00263,C0173,09/21/2024,returned,NetBanking,APP,PROMO1,Lucknow
+O00319,C0099,10/23/2024,Returned,Debit Card,WEB,,Delhi
+O00180,C0042,2024-02-17,Pending,NetBanking,app,null,Ahmedabad
+O00068,C0025,05/15/2024,pending,NetBanking,store,PROMO16,Bangalore
+O00064,C0173,05/13/2024,completed,Debit Card,app,,Pune
+O00058,C0006,2025-08-21,COMPLETE,Debit Card,APP,NA,Kolkata
+O00117,C0045,13/04/2025,Canceled,NetBanking,App,PROMO1,Kolkata
+O00291,C0004,09-Mar-2024,Completed,UPI,store,,Hyderabad
+O00149,C0177,25-Feb-2025,completed,Debit Card,web,NA,Mumbai
+O00022,C0005,2024-07-15,Cancelled,Credit Card,In-store,NA,Pune
+O00032,C0061,2025-05-30,pending,COD,app,,Chennai
+O00246,C0001,2024-01-01,Complted,Debit Card,APP,NA,Kolkata
+O00127,C9374,2024-06-06,COMPLETE,Credit Card,Store,NA,Delhi
+O00254,C0088,15-Nov-2024,Completed,NetBanking,In-store,NA,Kolkata
+O00152,C0109,08/29/2024,Complted,UPI,web,NA,Bangalore
+O00232,C0076,02/03/2025,pending,NetBanking,Instore,PROMO16,Mumbai
+O00155,C0122,21/06/2024,completed,Debit Card,Web,,Delhi
+O00252,C0136,09/08/2025,returned,COD,In-store,,Chennai
+O00162,C0111,03/10/2025,Pending,Debit Card,App,PROMO8,Mumbai
+O00223,C0108,08/05/2024,returned,COD,store,,Pune
+O00171,C0083,2024-07-10,pending,Credit Card,APP,PROMO4,Hyderabad
+O00299,C0031,27-Jul-2024,Returned,UPI,web,,Jaipur
+O00110,C0095,01-Jan-2025,completed,COD,web,PROMO16,Chennai
+O00279,C0054,07/24/2025,returned,COD,Instore,NA,Lucknow
+O00021,C0079,18/02/2024,pending,NetBanking,App,NA,Hyderabad
+O00020,C0062,12/03/2024,Complted,UPI,Web,NA,Mumbai
+O00285,C0035,20/02/2025,Completed,COD,Web,PROMO10,Ahmedabad
+O00016,C0036,09/13/2025,Canceled,Debit Card,Store,PROMO17,Lucknow
+O00057,C0057,24-Aug-2024,Pending,COD,web,NA,Jaipur
+O00170,C0002,09/11/2024,COMPLETE,Credit Card,app,PROMO2,Pune
+O00278,C0049,03-Oct-2024,cancelled,UPI,store,PROMO1,Ahmedabad
+O00036,C0026,04-Nov-2024,COMPLETE,Debit Card,Store,PROMO4,Lucknow
+O00037,C9195,2025-01-27,Cancled,UPI,app,PROMO4,Chennai
+O00025,C0106,2025-10-02,Completed,COD,Web,NA,Lucknow
+O00301,C0092,29/10/2025,PENDING,COD,Instore,NA,Hyderabad
+O00042,C0078,10/27/2025,completed,NetBanking,APP,,Hyderabad
+O00191,C0123,27-Jan-2025,cancelled,Debit Card,web,NA,Hyderabad
+O00082,C0085,2024-11-25,Completed,NetBanking,app,,Lucknow
+O00168,C0127,2025-05-07,completed,Credit Card,Instore,PROMO11,Bangalore
+O00074,C0117,28-Mar-2025,Complted,UPI,Store,PROMO17,Hyderabad
+O00228,C0115,10/24/2024,Canceled,NetBanking,In-store,NA,Kolkata
+O00274,C0035,03/04/2025,Cancled,NetBanking,app,NA,Hyderabad
+O00142,C0110,11/01/2025,Cancelled,COD,Store,,Ahmedabad
+O00175,C0121,24/06/2025,PENDING,Credit Card,web,,Kolkata
+O00125,C9356,07-Mar-2024,pending,Credit Card,app,NA,Jaipur
+O00014,C0078,2025-02-09,Returned,Credit Card,APP,NA,Kolkata
+O00237,C0113,2025-03-03,completed,Debit Card,Instore,NA,Ahmedabad
+O00257,C0125,14-Jul-2024,pending,Credit Card,WEB,,Jaipur
+O00165,C0121,2024-08-25,COMPLETE,UPI,APP,N/A,Kolkata
+O00235,C0007,01/12/2025,Returned,COD,WEB,PROMO20,Jaipur
+O00184,C0013,13-Jul-2024,completed,COD,WEB,NA,Jaipur
+O00131,C0150,10/03/2025,Complted,COD,web,PROMO14,Pune
+O00006,C0122,15/02/2024,completed,UPI,store,,Hyderabad
+O00262,C0034,10-Jan-2025,Complted,NetBanking,APP,NA,Hyderabad
+O00249,C0104,08/18/2024,Cancled,Credit Card,Web,,Lucknow
+O00208,C0144,26/05/2025,Complted,UPI,Store,PROMO5,Mumbai
+O00198,C0040,2025-09-21,completed,Debit Card,app,NA,Hyderabad
+O00111,C0113,06/07/2024,completed,Credit Card,App,PROMO1,Jaipur
+O00298,C0107,16-Aug-2024,Complted,UPI,web,NA,Ahmedabad
+O00222,C0120,2025-07-29,Returned,COD,Instore,PROMO19,Pune
+O00059,C0098,29-Jun-2024,Returned,Debit Card,store,PROMO8,Kolkata
+O00178,C0106,17/01/2025,Returned,NetBanking,web,NA,Hyderabad
+O00256,C0037,14-Oct-2024,completed,COD,store,,Jaipur
+O00027,C0006,27/06/2025,cancelled,Debit Card,WEB,,Bangalore
+O00200,C0033,23-Feb-2024,Complted,COD,store,PROMO2,Mumbai
+O00275,C0090,2024-07-09,Returned,Debit Card,store,NA,Hyderabad
+O00260,C0023,06/09/2024,returned,UPI,Store,PROMO18,Lucknow
+O00121,C0020,30/04/2024,Returned,Debit Card,APP,NA,Mumbai
+O00295,C0071,04-Jun-2024,Pending,Credit Card,WEB,NA,Mumbai
+O00013,C0085,03/07/2024,COMPLETE,NetBanking,app,,Lucknow
+O00112,C0114,11-Nov-2024,returned,UPI,Instore,PROMO19,Delhi
+O00099,C0065,26-Apr-2024,Complted,Credit Card,APP,NA,Mumbai
+O00290,C0135,04/05/2024,Pending,Debit Card,web,,Mumbai
+O00084,C0078,23/08/2025,COMPLETE,Debit Card,App,PROMO6,Delhi
+O00080,C0023,18-Nov-2024,completed,COD,Store,,Jaipur
+O00231,C0066,2024-04-28,cancelled,Debit Card,Web,,Kolkata
+O00210,C0029,2024-06-24,Complted,COD,app,,Mumbai
+O00049,C0097,07/10/2025,cancelled,Debit Card,store,,Delhi
+O00193,C0027,2024-10-03,Canceled,NetBanking,App,PROMO17,Hyderabad
+O00129,C0170,2024-09-11,returned,COD,App,NA,Lucknow
+O00194,C0010,03-May-2024,cancelled,Debit Card,App,NA,Mumbai
+O00247,C9440,2025-06-29,Pending,UPI,APP,PROMO14,Chennai
+O00241,C0091,2025-06-22,Completed,COD,Store,NA,Mumbai
+O00114,C0104,01/09/2024,COMPLETE,COD,Web,NA,Mumbai
+O00024,C0142,21/06/2025,COMPLETE,NetBanking,Web,PROMO3,Jaipur
+O00226,C0127,12/27/2024,Complted,Credit Card,Web,,Chennai
+O00215,C0062,14-Jun-2024,completed,Debit Card,Web,NA,Bangalore
+O00280,C0105,05/02/2024,Cancled,Credit Card,In-store,,Ahmedabad
+O00310,C0049,10/11/2024,returned,UPI,In-store,,Lucknow
+O00244,C0123,22/06/2024,pending,UPI,WEB,NA,Pune
+O00273,C0170,24-Jun-2025,Completed,UPI,Web,PROMO11,Pune
+O00135,C0117,11/30/2024,Cancled,COD,Web,,Lucknow
+O00268,C0102,2024-06-24,COMPLETE,NetBanking,app,NA,Bangalore
+O00078,C0144,2024-12-28,Returned,UPI,In-store,NA,Kolkata
+O00116,C0062,2024-05-20,Returned,UPI,Store,,Chennai
+O00096,C0046,12/02/2024,pending,Credit Card,Store,,Chennai
+O00061,C0066,2025-04-01,PENDING,Credit Card,app,,Ahmedabad
+O00128,C0067,16/10/2024,completed,COD,Store,NA,Ahmedabad
+O00023,C0073,2025-09-25,completed,Credit Card,Instore,N/A,Mumbai
+O00187,C0028,06/30/2024,Returned,NetBanking,app,NA,Mumbai
+O00070,C9795,02/17/2025,completed,NetBanking,app,NA,Lucknow
+O00009,C0085,07/09/2025,Completed,Debit Card,Store,,Bangalore
+O00181,C0021,18/04/2024,Complted,Credit Card,Store,,Jaipur
+O00220,C0031,19/02/2022,Pending,UPI,In-store,,Pune
+O00213,C0052,15-Aug-2025,PENDING,Credit Card,APP,,Jaipur
+O00304,C0118,2024-08-08,COMPLETE,Credit Card,WEB,NA,Chennai
+O00289,C0076,23/12/2024,completed,Debit Card,WEB,PROMO13,Chennai
+O00100,C0112,2025-10-15,Complted,NetBanking,Web,PROMO11,Mumbai
+O00156,C0109,2024-01-14,pending,Credit Card,APP,,Ahmedabad
+O00147,C0030,28-Jun-2025,Complted,COD,Store,NA,Lucknow
+O00043,C0090,28/03/2025,Cancled,COD,App,PROMO20,Kolkata
+O00137,C0060,2025-07-22,COMPLETE,Debit Card,app,NA,Hyderabad
+O00192,C0088,07/10/2025,COMPLETE,COD,Store,NA,Lucknow
+O00097,C0111,2024-09-20,Completed,NetBanking,In-store,PROMO9,Ahmedabad
+O00201,C0020,2024-04-21,pending,UPI,APP,,Jaipur
+O00239,C0026,20/08/2024,Completed,UPI,Instore,,Lucknow
+O00072,C0021,12-Mar-2024,Pending,Credit Card,APP,PROMO3,Pune
+O00039,C0088,2024-03-18,Completed,Credit Card,App,,Hyderabad
+O00306,C0020,09/28/2025,Completed,COD,Store,PROMO10,Bangalore
+O00293,C9091,2025-04-23,Returned,Debit Card,Web,,Pune
+O00202,C0065,09/03/2024,Returned,Credit Card,store,NA,Delhi
+O00265,C0025,08-May-2025,Complted,UPI,App,NA,Kolkata
+O00240,C0061,27-Dec-2024,completed,COD,app,PROMO8,Jaipur
+O00005,C0142,05/08/2025,Complted,UPI,App,,Delhi
+O00190,C0025,30-Aug-2024,returned,COD,Web,NA,Delhi
+O00316,C9423,2025-05-28,Canceled,Credit Card,web,NA,Delhi
+O00081,C0037,19-Feb-2025,completed,NetBanking,In-store,PROMO4,Pune
+O00174,C0098,22/04/2024,Returned,Debit Card,WEB,,Lucknow
+O00145,C0091,2025-04-06,Completed,Debit Card,App,NA,Pune
+O00264,C0001,19-Apr-2024,COMPLETE,NetBanking,web,PROMO9,Lucknow
+O00134,C0018,28-Apr-2024,Cancelled,NetBanking,web,,Pune
+O00015,C0121,05/10/2024,Complted,Credit Card,web,NA,Ahmedabad
+O00236,C0058,12/16/2024,COMPLETE,NetBanking,APP,PROMO19,Kolkata
+O00119,C0019,25-Jul-2025,Completed,Credit Card,WEB,,Bangalore
+O00211,C0112,2024-04-13,PENDING,UPI,web,,Pune
+O00138,C0177,2024-12-11,returned,Debit Card,app,NA,Ahmedabad
+O00118,C0077,2024-09-06,returned,NetBanking,app,,Lucknow
+O00245,C0061,07/22/2024,Complted,NetBanking,store,NA,Hyderabad
+O00040,C0014,15/02/2024,Complted,Credit Card,web,,Ahmedabad
+O00124,C0044,06/01/2024,Complted,UPI,Web,PROMO1,Bangalore
+O00284,C0047,01-Jul-2024,Completed,UPI,APP,NA,Jaipur
+O00287,C9331,2024-01-13,returned,Debit Card,App,NA,Bangalore
+O00010,C0100,04/09/2025,Complted,NetBanking,App,NA,Mumbai
+O00122,C0001,28-Mar-2024,completed,UPI,APP,NA,Pune
+O00123,C0149,20-Jan-2025,Complted,Credit Card,Instore,PROMO5,Kolkata
+O00173,C0146,04/06/2024,Complted,Credit Card,app,,Hyderabad
+O00087,C0123,10/20/2025,COMPLETE,NetBanking,WEB,NA,Delhi
+O00085,C0045,2025-08-04,COMPLETE,COD,App,,Mumbai
+O00250,C9946,11/09/2024,completed,Credit Card,store,,Hyderabad
+O00267,C0017,2024-09-10,Returned,Debit Card,web,,Kolkata
+O00008,C0118,07/09/2024,COMPLETE,COD,Web,,Mumbai
+O00238,C0020,2024-07-26,Cancelled,NetBanking,WEB,NA,Jaipur
+O00305,C0118,18/07/2025,Returned,UPI,APP,,Mumbai
+O00186,C0148,07-Mar-2025,Completed,Credit Card,App,PROMO15,Kolkata
+O00102,C9701,2024-11-03,completed,COD,app,PROMO15,Lucknow
+O00088,C0143,04/09/2025,Returned,Credit Card,store,PROMO5,Chennai
+O00292,C0127,29-Jun-2024,PENDING,Debit Card,Store,,Delhi
+O00176,C0011,08/13/2024,COMPLETE,UPI,In-store,NA,Jaipur
+O00272,C0121,31-Aug-2025,Cancled,NetBanking,store,NA,Lucknow
+O00002,C0047,09/21/2024,Cancelled,NetBanking,Web,NA,Chennai
+O00197,C0010,18-Mar-2025,COMPLETE,COD,web,PROMO15,Jaipur
+O00297,C0060,26/11/2024,Canceled,NetBanking,store,PROMO9,Jaipur
+O00276,C0110,12/05/2025,Completed,COD,APP,PROMO2,Bangalore
+O00130,C0139,04/07/2024,PENDING,Debit Card,store,,Chennai
+O00077,C0003,26-May-2025,Pending,Credit Card,store,PROMO9,Jaipur
+O00079,C0101,2024-01-29,Completed,UPI,App,NA,Hyderabad
+O00018,C0050,06/23/2024,Returned,COD,Instore,,Chennai
+O00203,C9589,12/02/2024,returned,COD,app,PROMO10,Mumbai
+O00066,C0010,2025-08-06,COMPLETE,Credit Card,store,NA,Mumbai
+O00073,C0144,2025-09-07,completed,Debit Card,Instore,NA,Ahmedabad
+O00177,C0115,26-Feb-2025,Cancelled,NetBanking,APP,NA,Hyderabad
+O00052,C0072,26-Mar-2025,Pending,Debit Card,App,PROMO9,Ahmedabad
+O00230,C0070,04/11/2025,PENDING,Debit Card,web,,Bangalore
+O00003,C0132,27/01/2025,Completed,Debit Card,Web,NA,Lucknow
+O00055,C0177,15/09/2025,Returned,Credit Card,app,PROMO12,Chennai
+O00164,C0009,2025-06-06,Cancelled,NetBanking,Store,PROMO1,Ahmedabad
+O00207,C0128,09/22/2024,Returned,NetBanking,Store,PROMO3,Bangalore
+O00144,C0072,09/23/2024,completed,Debit Card,store,NA,Pune
+O00090,C0082,28-May-2024,returned,Credit Card,App,NA,Mumbai
+O00086,C0129,24-Nov-2024,Completed,UPI,App,,Bangalore
+O00012,C0050,10/06/2025,Complted,Debit Card,Web,NA,Chennai
+O00106,C0059,01/23/2025,COMPLETE,Debit Card,WEB,,Bangalore
+O00314,C0173,07/08/2025,completed,UPI,app,PROMO19,Pune
+O00158,C0124,08/03/2025,Complted,UPI,App,NA,Mumbai
+O00205,C0121,13/09/2021,Returned,Credit Card,app,NA,Jaipur
+O00054,C0067,20/02/2024,Pending,Credit Card,Instore,PROMO18,Chennai
+O00218,C0136,28-Mar-2024,returned,COD,app,NA,Hyderabad
+O00315,C0016,03/22/2024,cancelled,NetBanking,Store,,Lucknow
+O00266,C0175,17-Sep-2024,completed,Debit Card,store,NA,Jaipur
+O00204,C0013,08/10/2025,Cancled,Credit Card,web,NA,Delhi
+O00161,C0105,01/20/2025,PENDING,UPI,In-store,NA,Ahmedabad
+O00120,C0025,2024-07-06,Complted,UPI,web,None,Lucknow
+O00007,C0004,01-Mar-2024,Complted,UPI,store,NA,Ahmedabad
+O00031,C0040,11-Jan-2025,Returned,UPI,app,,Ahmedabad
+O00001,C0033,05/10/2022,Completed,Credit Card,app,NA,Pune
+O00050,C0032,15/06/2024,Canceled,COD,WEB,PROMO5,Jaipur
+O00307,C0001,02/07/2024,PENDING,COD,App,NA,Hyderabad
+O00261,C0021,02/10/2024,COMPLETE,Debit Card,App,,Lucknow
+O00060,C0118,2025-09-25,COMPLETE,Credit Card,Instore,,Kolkata
+O00157,C0031,03/22/2024,completed,COD,store,,Kolkata
+O00108,C0129,13-Feb-2025,COMPLETE,COD,In-store,PROMO19,Lucknow
+O00093,C0103,18/06/2025,COMPLETE,UPI,APP,,Chennai
+O00253,C0105,2025-09-25,Returned,COD,App,NA,Bangalore
+O00259,C0149,05-Jan-2024,pending,Debit Card,Web,PROMO7,Bangalore
+O00255,C0064,2024-01-07,completed,NetBanking,app,NA,Bangalore
+O00067,C9272,18/05/2024,completed,Credit Card,store,NA,Mumbai
+O00182,C0119,06/01/2024,Completed,NetBanking,In-store,NA,Delhi
+O00133,C0173,06/22/2025,Returned,Debit Card,Instore,,Lucknow
+O00163,C0018,26-Apr-2024,Completed,COD,APP,,Lucknow
+O00283,C0096,02/17/2025,completed,Debit Card,APP,,Kolkata
+O00148,C0176,14-Nov-2024,Completed,UPI,App,,Pune
+O00248,C0131,21-Jul-2025,Completed,COD,Instore,NA,Mumbai
+O00302,C0148,2024-11-06,Complted,Credit Card,In-store,PROMO4,Hyderabad
+O00300,C0114,18-Jun-2025,Complted,COD,store,NA,Chennai
+O00030,C0121,10/08/2025,pending,UPI,app,NA,Delhi
+O00271,C0061,26/05/2025,cancelled,NetBanking,app,NA,Bangalore
+O00108,C0129,13-Feb-2025,COMPLETE,COD,In-store,PROMO19,Lucknow
+O00269,C9433,09-Oct-2024,COMPLETE,UPI,APP,,Delhi
+O00212,C0176,03/14/2025,Complted,COD,app,,Chennai
+O00270,C0083,09-Jun-2024,Canceled,COD,App,PROMO14,Chennai
+O00169,C0089,2025-08-18,PENDING,Credit Card,App,NA,Pune
+O00141,C0095,19-Jul-2024,Complted,NetBanking,WEB,,Jaipur
+O00063,C0063,2024-11-29,completed,Credit Card,Instore,NA,Bangalore
+O00069,C0041,06/16/2024,COMPLETE,Credit Card,App,PROMO13,Jaipur
+O00242,C0047,22/10/2024,Canceled,COD,app,PROMO4,Pune
+O00150,C0102,2024-10-27,returned,COD,app,NA,Lucknow
+O00034,C0136,05-Oct-2025,pending,Debit Card,Instore,NA,Pune
+O00282,C0007,02-Mar-2025,Complted,COD,app,,Chennai
+O00219,C0064,07/14/2025,Canceled,Debit Card,App,,Kolkata
+O00035,C0073,02/11/2024,pending,COD,WEB,,Jaipur
+O00195,C0107,01/16/2024,Completed,COD,app,NA,Kolkata
+O00189,C0034,07/31/2025,COMPLETE,UPI,Instore,NA,Kolkata
+O00166,C0001,2025-03-26,Canceled,UPI,store,PROMO14,Bangalore
+O00154,C0007,15/09/2025,Completed,COD,App,PROMO17,Pune
+O00048,C0069,12/05/2021,Complted,Debit Card,store,,Ahmedabad
+O00320,C0128,08/05/2025,Completed,COD,Instore,,Kolkata
+O00185,C0071,27/06/2024,Pending,Credit Card,WEB,NA,Pune
+O00234,C0037,2020-10-29,returned,NetBanking,Store,PROMO10,Lucknow
+O00091,C0002,2025-01-20,returned,COD,In-store,NA,Bangalore
+O00288,C9687,03-Feb-2024,completed,NetBanking,app,,Mumbai
+O00294,C0005,01/05/2025,completed,COD,Web,NA,Hyderabad
+O00146,C0176,10-Feb-2024,pending,NetBanking,In-store,,Pune
+O00083,C0077,2025-10-21,COMPLETE,Credit Card,web,PROMO4,Mumbai
+O00092,C0081,06/02/2024,Complted,Debit Card,web,PROMO19,Chennai
+O00214,C0106,2024-07-25,Completed,UPI,web,,Chennai
+O00056,C0174,14/11/2024,PENDING,Debit Card,In-store,NA,Lucknow
+O00313,C0065,06/30/2025,COMPLETE,Credit Card,web,NA,Mumbai
+O00045,C0114,30-Jul-2024,Complted,COD,WEB,NA,Kolkata
+O00170,C0002,09/11/2024,COMPLETE,Credit Card,app,PROMO2,Pune
+O00153,C0065,25/12/2020,COMPLETE,NetBanking,app,,Bangalore
+O00296,C0111,10-Apr-2024,Cancelled,NetBanking,WEB,,Chennai
+O00017,C0086,2025-01-19,Completed,Debit Card,In-store,NA,Delhi
+O00075,C0029,2025-03-19,returned,Credit Card,APP,N/A,Lucknow
+O00019,C0074,09/29/2024,pending,Credit Card,In-store,NA,Jaipur
+O00179,C0120,07/21/2025,pending,COD,WEB,PROMO9,Kolkata
+O00029,C0059,09/04/2025,Cancled,UPI,Web,PROMO10,Lucknow
+O00076,C0136,14-Feb-2025,completed,COD,Web,NA,Kolkata
+O00095,C0021,27-Dec-2024,COMPLETE,Credit Card,WEB,,Bangalore
+O00026,C0015,08/09/2025,Returned,COD,app,PROMO13,Jaipur
+O00107,C0045,05/08/2024,Canceled,UPI,Store,NA,Hyderabad
+O00286,C0079,2024-05-05,pending,COD,WEB,PROMO1,Mumbai
+O00143,C0129,14-Jan-2025,returned,Credit Card,In-store,PROMO12,Pune
+O00281,C0142,07/12/2024,COMPLETE,UPI,WEB,PROMO1,Pune
+O00126,C0029,29-Jun-2024,Complted,NetBanking,App,PROMO15,Ahmedabad
+O00004,C0144,12/12/2024,completed,COD,In-store,,Delhi
+O00012,C0050,10/06/2025,Complted,Debit Card,Web,NA,Chennai
+O00308,C0106,02/06/2025,pending,NetBanking,Store,,Bangalore
+O00041,C0032,27-Feb-2025,COMPLETE,Credit Card,web,PROMO4,Hyderabad
+O00227,C0139,2024-07-01,returned,UPI,app,N/A,Bangalore
